@@ -12,6 +12,9 @@
 */
 
 
+
+// Ranking
+Route::get('ranking/want', 'RankingController@want')->name('ranking.want');
 Route::get('/', 'WelcomeController@index');
 
 //user registration
