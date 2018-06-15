@@ -14,6 +14,7 @@
 
 
 // Ranking
+Route::get('ranking/have', 'RankingController@have')->name('ranking.have');
 Route::get('ranking/want', 'RankingController@want')->name('ranking.want');
 Route::get('/', 'WelcomeController@index');
 
