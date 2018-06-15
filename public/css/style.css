@@ -82,10 +82,13 @@ p.item-title {
     margin: 0 5px;
 }
 
+
+
 /* users */
 .user-profile .name {
     margin-bottom: 20px;
 }
+
 .user-profile .name h1 {
     text-shadow: 1px 1px 1px #fff;
     font-weight: bold;
